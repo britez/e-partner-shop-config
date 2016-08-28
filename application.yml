@@ -3,6 +3,7 @@ epartner:
   port:
     oauth: 18080
     config: 18090
+    api: 18100
 
   oauth:
     context-path: /
