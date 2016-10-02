@@ -12,6 +12,9 @@ epartner:
       enabled: false
       host: localhost
       port: 6379
+
+  images:
+    url: http://localhost:18120
 ---
 spring:
   oauth2:
