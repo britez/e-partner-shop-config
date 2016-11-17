@@ -7,7 +7,7 @@ epartner:
 
   oauth:
     context-path: /
-    uri: http://localhost:${epartner.port.oauth}${epartner.oauth.context-path}
+    uri: http://ec2-35-163-50-117.us-west-2.compute.amazonaws.com:${epartner.port.oauth}${epartner.oauth.context-path}
     redis:
       enabled: false
       host: localhost
