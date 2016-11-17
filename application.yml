@@ -35,11 +35,7 @@ mail:
   password: Martob92*
   protocol: smtp
   tls: true
-  properties:
-  mail:
-  smtp:
-  uth: true
-  starttls:
-  enable: true
-  ssl:
-  trust: smtp.gmail.com
+  properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
