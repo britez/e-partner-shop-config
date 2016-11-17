@@ -25,3 +25,17 @@ management:
     enabled: false
   context-path: /manage
 
+---
+
+mail:
+  link: http://localhost:18110/#/confirmation/
+   host: smtp.gmail.com
+          port: 587
+          username: testmaileropenfire@gmail.com
+          password: Martob92*
+          protocol: smtp
+          tls: true
+          properties.mail.smtp:
+              auth: true
+              starttls.enable: true
+              ssl.trust: smtp.gmail.com
