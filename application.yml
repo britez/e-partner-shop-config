@@ -40,4 +40,4 @@ spring:
           starttls.enable: true
           ssl.trust: smtp.gmail.com
 mail:
-  link: http://localhost:18080/confirmation/
+  link: http://localhost:18080/user/confirm/
