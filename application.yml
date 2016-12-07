@@ -46,7 +46,7 @@ mail:
 spring:
   datasource:
     port: 3306
-    url: jdbc:mysql://e-partner-mysql:${spring.datasource.port}/partnerdb?autoReconnect=true&useSSL=false
+    url: jdbc:mysql://epartner-mysql:${spring.datasource.port}/partnerdb?autoReconnect=true&useSSL=false
     username: root
     password: 123456hola
     driver-class-name: com.mysql.cj.jdbc.Driver
