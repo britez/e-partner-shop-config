@@ -50,4 +50,3 @@ spring:
     username: root
     password: 123456hola
     driver-class-name: com.mysql.cj.jdbc.Driver
-    ddl-auto: create-drop
