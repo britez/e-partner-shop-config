@@ -42,12 +42,13 @@ spring:
 mail:
   link: http://localhost:18080/user/confirm/
 
+
 ---
-#spring:
-# datasource:
-#    port: 3306
-  #    url: jdbc:mysql://epartner-mysql:${spring.datasource.port}/partnerdb?autoReconnect=true&useSSL=false
-#    username: root
-#    password:
-#    driver-class-name: com.mysql.jdbc.Driver
-##    ddl-auto: create-drop
+spring:
+ datasource:
+    port: 3306
+    url: jdbc:mysql://localhost:3306/partnerdb?useSSL=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+#    ddl-auto: create-drop
