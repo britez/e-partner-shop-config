@@ -35,13 +35,13 @@ spring:
       password: Martob92*
       protocol: smtp
       tls: true
-      logo: http://epartnershop.com/imagenes/logo-epartnershopTR.gif
       properties.mail.smtp:
           auth: true
           starttls.enable: true
           ssl.trust: smtp.gmail.com
 mail:
   link: http://localhost:18080/user/confirm/
+  logo: http://epartnershop.com/imagenes/logo-epartnershopTR.gif
 
 
 ---
