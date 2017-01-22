@@ -52,3 +52,6 @@ spring:
     password: root
     driver-class-name: com.mysql.jdbc.Driver
 #    ddl-auto: create-drop
+
+partner-properties:
+  logo: http://epartnershop.com/imagenes/logo-epartnershopTR.gif
