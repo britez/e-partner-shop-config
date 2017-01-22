@@ -41,7 +41,6 @@ spring:
           ssl.trust: smtp.gmail.com
 mail:
   link: http://localhost:18080/user/confirm/
-  logo: http://epartnershop.com/imagenes/logo-epartnershopTR.gif
 
 
 ---
