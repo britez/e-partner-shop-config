@@ -3,3 +3,7 @@ epartner:
   oauth:
     context-path: /
     uri: http://ec2-35-163-50-117.us-west-2.compute.amazonaws.com:${epartner.port.oauth}${epartner.oauth.context-path}
+    redis:
+      enabled: false
+      host: 52.206.123.197
+      port: 6379
