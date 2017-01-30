@@ -10,7 +10,7 @@ epartner:
     uri: http://localhost:${epartner.port.oauth}${epartner.oauth.context-path}
     redis:
       enabled: false
-      host: e-partner-redis
+      host: localhost
       port: 6379
 ---
 spring:
