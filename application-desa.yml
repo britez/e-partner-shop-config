@@ -5,5 +5,5 @@ epartner:
     uri: http://ec2-35-163-50-117.us-west-2.compute.amazonaws.com:${epartner.port.oauth}${epartner.oauth.context-path}
     redis:
       enabled: false
-      host: 52.87.189.110
+      host: 54.196.101.242
       port: 6379
